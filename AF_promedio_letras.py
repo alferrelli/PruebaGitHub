@@ -23,7 +23,7 @@ try:
     promedio = promedio_letras(frase)
     print ('Promedio de Letras: ', promedio)
 except:
-    print("Debe ingresar una frase")
+    print("Debe ingresar una Frase")
 
 
 
