@@ -2,6 +2,7 @@
 def promedio_letras(frase:str):
     separadores = [' ',',',':',';']
     frase_sin_espacios = frase
+    print(frase)
 
     if len(frase)>0:    
         for separador in separadores:  
@@ -15,7 +16,7 @@ def promedio_letras(frase:str):
         
         return (round(cantidad_letras/cantidad_palabras,4))
     else:
-        raise DivisionByZero
+        raise Exception
 
 
 frase = 'En AlgoTrading mostramos como la market data es todo'
