@@ -1,6 +1,6 @@
 
 def promedio_letras(frase:str):
-    separadores = [' ',',',':',';','-']
+    separadores = [' ',',',':',';','-','*']
     frase_sin_espacios = frase
     print(frase)
 
